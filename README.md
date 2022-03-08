@@ -35,7 +35,7 @@
 
 - Thing -render a single thing
 
-- ThingShow - render a single thing on it's own page (React Router)
+- ThingShow - render a single thing on its own page (React Router)
 
 - CRUD in our Provider
 
