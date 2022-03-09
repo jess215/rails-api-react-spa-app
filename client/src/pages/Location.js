@@ -15,9 +15,11 @@ const Location = (props)=>{
             <p>Rating: {rating}/5</p>
             <p>ID: {id}</p>
             <div className='border' style={{display:'flex', justifyContent: 'space-around'}}>
-                <button onClick={()=>navigate(`/locations/${id}/edit`)}>Edit</button>
-                <button onClick={()=>deleteLocation(id)}>Delete</button>
-                <button onClick={()=>navigate(`/locations/${id}`, {state: props})}>Show</button>
+                <p onClick={()=>navigate(`/locations/${id}/edit`, {
+                    state: {id, name, city, state, built, rating},
+                    })}>Edit</p>
+                <p onClick={()=>deleteLocation(id)}>Delete</p>
+                <p onClick={()=>navigate(`/locations/${id}`, {state: props})}>Show</p>
             </div>
         </div>
     )

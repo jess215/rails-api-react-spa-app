@@ -27,7 +27,7 @@
 - start rails server
 
 # REACT
-- Route/Component/Nav (React ROuter UP/UX)
+- Route/Component/Nav (React Router UP/UX)
 
 - ThingForm (new/edit)
 
