@@ -1,8 +1,25 @@
-.box {
-  border: 2px solid lightslategray;
+.dragonContainer {
+  background-color: #BFC0C0;
   margin: 15px;
   padding: 20px;
   text-align: center;
+}
+
+h2 {
+  color: #2D3142;
+}
+
+h3 {
+  color: #4F5D75;
+}
+
+p {
+  color: #4F5D75;
+}
+
+.formInput {
+  color: #2D3142;
+  text-align: end;
 }
 
 
