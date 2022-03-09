@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Locations from './pages/Locations';
 import LocationForm from './pages/LocationForm';
 import LocationShow from './pages/LocationShow';
+import Dragons from './pages/Dragons';
 
 const NotFound = ()=> {
   return <p>Path not found</p>
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path="/about" element={<About />} />
         <Route path="/home" element={<Home />} />
         <Route path="/locations" element={<Locations />} />
+        <Route path="/dragons" element={<Dragons/>} />
         <Route path="/locations/new" element={<LocationForm />} />
         <Route path="/locations/:id" element={<LocationShow />} />
         <Route path="/locations/:id/edit" element={<LocationForm />} />
